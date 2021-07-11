@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "private": true,
+    "devDependencies": {
+        "lerna": "^4.0.0"
+    },
+    "lerna": {
+        "packages": [
+            "packages/*"
+        ],
+        "version": "independent"
+    },
+    "prettier": {
+        "overrides": [
+            {
+                "files": [
+                    "*.ts"
+                ],
+                "options": {
+                    "trailingComma": "es5",
+                    "tabWidth": 4
+                }
+            },
+            {
+                "files": [
+                    "*.json"
+                ],
+                "options": {
+                    "tabWidth": 4
+                }
+            },
+            {
+                "files": [
+                    "*.md"
+                ],
+                "options": {
+                    "proseWrap": "always"
+                }
+            }
+        ]
+    }
+}
