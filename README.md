@@ -1,3 +1,5 @@
+![omnijs logo](./assets/logo/logo.png)
+
 # omnijs
 
 omnijs is a collection of server side javascript components built around a
